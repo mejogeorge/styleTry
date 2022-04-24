@@ -1,0 +1,25 @@
+.inputBox {
+  display: flex;
+  flex: 1;
+  position: relative;
+  margin: 10px;
+}
+.box {
+  display: flex;
+  flex: 1px;
+  font-size: 14px;
+  border: solid 1px grey;
+  padding: 10px;
+  border-radius: 4px;
+}
+.drop {
+  position: absolute;
+  color: gray;
+  right: 10px;
+  bottom: 10px;
+  top: 10px;
+  font-size: 14px;
+}
+.extraPadding {
+  padding-right: 24px;
+}

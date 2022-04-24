@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+  /* width: 100%; */
+  display: flex;
+  flex:1;
+  justify-content: center;
 }
 
 .App-logo {
@@ -35,4 +38,17 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+
+.formView {
+  margin :20px ;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  flex:1;
+  padding:56px;
+  max-width: 360px;
+  align-self: center;
+  box-shadow: 1px 1px 5px 5px grey;
 }
