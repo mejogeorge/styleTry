@@ -1,7 +1,7 @@
-import './styles.css'
+import styles from './Button.module.css'
 
 const InputBox = props => {
-  return <div className={`button`}>{props.text}</div>
+  return <div className={styles.button}>{props.text}</div>
 }
 
 export default InputBox
